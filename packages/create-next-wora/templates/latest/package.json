@@ -1,0 +1,20 @@
+{
+  "name": "next-wora-template",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/native",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace next-wora-web",
+    "build:web": "npm run build --workspace next-wora-web",
+    "start:web": "npm run start --workspace next-wora-web",
+    "android:init": "npm run android:init --workspace next-wora-native",
+    "android": "npm run android --workspace next-wora-native"
+  },
+  "dependencies": {
+    "lucide-react": "^0.556.0"
+  }
+}

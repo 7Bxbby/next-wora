@@ -1,0 +1,6 @@
+src
+tsconfig.json
+tsconfig.tsbuildinfo
+templates/**/node_modules
+templates/**/.next
+templates/**/.turbo
